@@ -427,6 +427,10 @@ void CCAKitViewerv05Dlg::OnBnClickedButton2()
 	bReturn = TRUE;
 }
 
+void CCAKitViewerv05Dlg::PRINT()
+{
+	cout << "PRINT"<<endl;
+}
 
 
 void CCAKitViewerv05Dlg::Camera_in()
